@@ -1,0 +1,50 @@
+.navbar{
+    background-color:rgba(255,102,0,.9);
+}
+
+body {
+    font-family:sans-serif;
+  }
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.abstract-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1655720410101-c5cc15b1faf0?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    transform: skewY(-3deg);
+    transform-origin: top left;
+}
+.banner-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 2.5em; 
+    margin-bottom: 10px; 
+}
+
+.banner-text p {
+    font-size: 1.2em; 
+}
+
+
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+}
